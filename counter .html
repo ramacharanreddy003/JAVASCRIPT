@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<center>
+    <p class="c">Count: <span id="counter">0</span></p>
+    
+     <button id="db">Dec</button>
+     <button id="ib">Inc</button>
+     <button id="r">Reset</button>
+</center>
+    <script>
+            const counter=document.getElementById("counter");
+            const ib=document.getElementById("ib");
+            const db=document.getElementById("db");
+            const r=document.getElementById("r");
+
+            let count=0;
+            db.addEventListener("click",function(){
+                count--;
+                counter.innerHTML=count;            
+            })
+            ib.addEventListener("click", function(){
+                count++;
+                counter.innerHTML=count;
+            })
+            let rcount=0;
+            r.addEventListener("click",function(){
+                count=0;
+                counter.innerHTML=count;
+            })
+    </script>
+</body>
+</html>

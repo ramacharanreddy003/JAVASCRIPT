@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+                <script>
+                    //even or odd
+                    function check(n){
+                         if(n%2===0){
+                            return "even";
+                         }else if(n%2!=0){
+                            return "odd";
+                         }
+                        }
+                        console.log(check(8));
+                </script>
+
+                
+                <script>
+                            function grade(num){
+                                if(num>=90){
+                                    return "A";
+                                }else if(num >=80){
+                                    return "B";
+                                }else if(num >=70){
+                                    return "C";
+                                }else if(num >=60){
+                                    return "D";
+                                }else{
+                                    return "F";
+                                }
+                                
+                            };
+                            console.log(grade(84));
+                </script>
+
+                    <script>
+                            //leap year
+                            function leapyear(year){
+                                if((year%4===0 && year%100!==0)||(year % 40===0)){
+                                    return "leap year";
+                                }else{
+                                    return "not a leap year";
+                                }
+                            }
+                            console.log(leapyear(2020));
+                    </script>
+
+
+                    <script>
+                            //age category
+                            function agecat(age){
+                                if(age>=0 && age <=12){
+                                    return "Child";
+                                }else if(age>=13 && age <=17){
+                                    return "Teeneger";
+                                }else if(age>=18 && age<=64){
+                                    return "Adult";
+                                }else{
+                                    return "Senior";
+                                }
+                            }
+                            console.log(agecat(23));
+                    </script>
+
+
+                        <script>
+                            function dayofweek(dn){
+                                if(dn==1){
+                                    return "Sunday";
+                                }else if(dn==2){
+                                    return "Monday";
+                                }else if(dn==3){
+                                    return "Tuesday";
+                                }else if(dn==4){
+                                    return "Wednesday";
+                                }else if(dn==5){
+                                    return "Thursday";
+                                }else if(dn==6){
+                                    return "Friday";
+                                }else if(dn==7){
+                                    return "Saturday";
+                                }else if(dn>7){
+                                    return "invalid day number";
+                                }
+                                }
+                            console.log(dayofweek(7));
+                        </script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

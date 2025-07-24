@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+                <script>
+                      let wtime=4;
+                    function wakeup(time){
+                      return new Promise((resolve,reject)=>{
+                        if(time>5){
+                            resolve("You need to wake up now");
+                        }else{
+                            reject("You don't need to a wake up now");
+                        }
+                    });
+                }
+                    wakeup(wtime)
+                        .then((w) => {
+                            console.log("Now: "+time);
+                            
+                        }).catch((nowakeup) => {
+                            console.log("Now: "+nowakeup);
+                            
+                        });
+
+                </script>
+</body>
+</html>
