@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+        //HOISTING IN JS
+            cat();  
+            function cat(){
+                console.log("The cat sounds like meow.");
+                getName();
+                function getName(){
+                    console.log("Charan Reddy");
+                }
+            }
+
+      
+      console.log(z);
+      var z=9;
+
+
+    const a=5,b=9;
+    addition();  
+    function addition(){
+        console.log(a+b);  
+      }
+    //addition();
+        </script>
+
+
+<script>
+            //functions
+            //hoisting
+            c();
+            function c(){
+                const b=34;
+                console.log(b);
+            }
+
+        var t=89;
+        n();
+        function n(){
+            console.log("ANUB");
+            }  
+            console.log(t);
+       
+            if(a===undefined){
+                console.log("a");
+            }else{
+                console.log(" not a");
+            }
+            
+
+            //fun. expression hoisting
+      
+           
+      
+            console.log(greet); 
+            greet();    
+            var greet=function(){
+                console.log("Hello! I'm Charan.");
+            };
+</script>
+</body>
+</html>
