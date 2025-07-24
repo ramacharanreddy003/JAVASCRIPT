@@ -1,4 +1,4 @@
-/*var grade="C";
+var grade="C";
 var result;
 switch(grade){
     case 'A':
@@ -16,8 +16,7 @@ switch(grade){
 
 }
 console.log(result);
-*/
-/*
+
 let n1=75;
 let n2=5;
 let operator="-";
@@ -36,8 +35,9 @@ switch(operator){
         break;
     default:
         console.log("Invslid opeartor");
-}*/
-/*
+}
+
+
 let day=7;
 switch(day){
     case 1:
@@ -60,9 +60,9 @@ switch(day){
         break;
     case 7:
         console.log("Today is Sunday");
-}
-*/
-/*
+}  
+
+
 let month=8;
 switch(month){
     case 1:
@@ -119,8 +119,6 @@ switch(color){
     default:
         console.log("Invalid color");
 }
-*/
-/*
 
 //traffiic signals
 let colors="red";
@@ -140,7 +138,7 @@ switch(colors){
     
 }
 console.log(`${action}`);
-*/
+
 
 //fruit price.
 fruit="orange";
@@ -162,7 +160,6 @@ switch(fruit){
 console.log(action);
 
 //weather forecast
-/*
 let weather_condition="rainy";
 let action;
 switch(weather_condition){
