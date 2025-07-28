@@ -1,28 +1,28 @@
 //while loop
-/*var i=4;
+var i=4;
 while(i<=15){
-    //if(i==11){ break;}
+    if(i==11){ break;}
     console.log(i);
     i++;
-}*/
+}
 
 //do while loop
-/*
+
 var c=5;
 do{
     console.log(c);
     c++;
 }
 while(c<=8);
-*/
-/*
+
+
 let j=20;
 do{
     console.log(j);
     j++;
 }while(j<=30);
 
-*/
+
 
 //practical 
 
